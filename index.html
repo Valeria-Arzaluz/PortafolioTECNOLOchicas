@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Valeria Arzaluz Galindo">
+    <meta name="description" content="Portafolio de desarrollo web de Valeria Arzaluz Galindo">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Valeria Arzaluz Galindo | Portafolio</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/4449/4449619.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="https://cdn-icons-png.flaticon.com/512/4449/4449619.png" width="15%">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#expe">Experiencia</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="https://media.discordapp.net/attachments/753428350286037044/1135484072966242355/1682542517545.jpg?width=430&height=430" alt="">
+        <h1>Hola, soy </h1>
+        <h1>Valeria Arzaluz Galindo</h1>
+        <p></p>
+        <p></p>
+        
+<!--<h2> Estudiante de Actuaría | Desarrollo sitios web | Maestra de Matemáticas</h2>-->
+        <!--Animación con JavaScript-->
+        
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+      <img class="hero-inferior-imagen img-fluid" src="https://cienciauanl.uanl.mx/wp-content/uploads/2022/04/1.-SYC.png" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React." width="40%">
+      <p></p>
+      <p></p>
+    </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Valeria Arzaluz Galindo</h2>
+        <p class="seccion-texto">Soy estudiante de la licenciatura en Actuaria, manejo diferentes lenguajes de programación como: STATA, MatLab, HTML, CSS, R y Phyton, soy maestra de matemáticas en el Centro Kumon, actualmente tengo 24 años, me apasiona la historia universal y la jardineria.</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section id="expe" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Experiencia</h2>
+            
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen" src="https://i0.wp.com/adnoticias.mx/wp-content/uploads/2023/05/Diseno-sin-titulo-16.png?fit=1200%2C675&ssl=1" alt="">
+              <p class="testimonio-texto">Estudiante de ultimo semestre de la licenciatura en Actuaría.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Facultad de Economía </p>
+                <p class="cargo">de la Universidad Autónoma del Estado de México</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen" src="https://tecnolochicas.mx/public/images/videos_camp/tecnolochica.png" alt="">
+              <p class="testimonio-texto">Alumna del bootcamp Tecnolochicas Pro, verano 2023.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Tecnolochicas México</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen" src="data:image/jpeg;base64,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" alt="">
+              <p class="testimonio-texto">Mentora de temas selectos de matemáticas en el cetro de enseñanza Kumon.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Centro Kumon</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+    
+    
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado ultimamente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://media.discordapp.net/attachments/753428350286037044/1135506566796288020/image.png?width=765&height=430" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://app.netlify.com/teams/valeria-arzaluz/overview" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://media.discordapp.net/attachments/753428350286037044/1135506093028671508/image.png?width=765&height=430" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://app.netlify.com/teams/valeria-arzaluz/overview" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://media.discordapp.net/attachments/753428350286037044/1135504831323328552/image.png?width=765&height=430" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://app.netlify.com/teams/valeria-arzaluz/overview" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    
+    <section id="testimonios" class="experiencia seccion-clara">
+      <h2 class="seccion-titulo texto-negro">Testimonios</h2>
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <img class="test-imagen rounded-circle" src="https://media.discordapp.net/attachments/753428350286037044/1135509731495125083/Screenshot_20230731_034941.jpg?width=430&height=430" alt="">
+            <p class="experiencia-titulo">Jesica Dominguez Núñez</p>
+            <p class="cargo-tes">Responsable del Servicio Social en la UAEMéx</p>
+            <p>Fue responsable de un grupo de 25 brigadistas multidisciplinarios, elaboró reportes semanales de las actividades, trabajó bajo presión, además mostró liderazgo. </p>
+            <div class="badges-contenedor">
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <img class="test-imagen rounded-circle" src="https://media.discordapp.net/attachments/753428350286037044/1135476348043931768/FB_IMG_1690785529806.jpg?width=430&height=430" alt="">
+            <p class="experiencia-titulo">Maricela Chavez </p>
+            <p class="cargo-tes">Compañera de trabajo en el centro Kumon y estudiante en la UAEMéx</p>
+            <p>Cómo compañera de trabajo ha mostrado ser alguien disponible para brindar su apoyo a sus alumnos y compañeros de trabajo, tiene la capacidad de trabajar bajo presión y resolver problemas que se puedan presentar. </p>
+            <div class="badges-contenedor">
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <img class="test-imagen rounded-circle" src="https://media.discordapp.net/attachments/753428350286037044/1135509731226693673/Screenshot_20230731_034953.jpg?width=430&height=430" alt="">
+            <p class="experiencia-titulo">Ana Maria Reynoso</p>
+            <p class="cargo-tes">Compañera estudiante en la UAEMéx</p>
+            <p>Ha sido una compañera con la cual se puede contar para los trabajos en equipo, es propensa al autoaprendizaje y una persona muy organizada.</p>
+            <div class="badges-contenedor">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="https://cdn-icons-png.flaticon.com/512/5607/5607410.png" alt="">
+      <p class="footer-texto text-center">Todo es posible<br>con el esfuerzo suficiente</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/valeria-alejandra-arzaluz-galindo-110b35285/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://outlook.live.com/mail/0/inbox/id/AQQkADAwATNiZmYAZC00MjIAOC1lN2QxLTAwAi0wMAoAEADPDKv%2ByIB3TaIQNA2nmZsA" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Valeria Arzaluz Galindo (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
